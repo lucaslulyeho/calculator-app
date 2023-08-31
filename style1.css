@@ -64,10 +64,7 @@ body {
   background-color: var(--key-background-toggle-1);
 }
 
-.toggle-btn:hover,
-.equal:hover {
-  background-color: #f86b5c;
-}
+
 
 #display {
   background-color: var(--screen-background-1);
@@ -103,6 +100,7 @@ body {
 .equal:hover {
   background-color: #f86b5c;
 }
+
 .reset:hover,
 .del:hover {
   background-color: #a2b2e1;

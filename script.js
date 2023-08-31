@@ -37,6 +37,7 @@ let result = 0;
 
 let theme = 1;
 
+
 // display.innerText = initialNum;
 let buttonsArray = [one, two, three, four, five, six, seven, eight, nine, zero, point];
 // one.onclick = function(){
@@ -44,17 +45,20 @@ let buttonsArray = [one, two, three, four, five, six, seven, eight, nine, zero, 
 // }
 
 toggleWrapper1.onclick = function(){
+    link.setAttribute('href', 'style1.css');
     toggle1.style.visibility = 'visible';
     toggle2.style.visibility = 'hidden';   
     toggle3.style.visibility = 'hidden';
 
 }
 toggleWrapper2.onclick = function(){
+    link.setAttribute('href', 'style2.css');
     toggle1.style.visibility = 'hidden';
     toggle2.style.visibility = 'visible';   
     toggle3.style.visibility = 'hidden';
 }
 toggleWrapper3.onclick = function(){
+    link.setAttribute('href', 'style3.css');
     toggle1.style.visibility = 'hidden';
     toggle2.style.visibility = 'hidden';   
     toggle3.style.visibility = 'visible';
